@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: darkgrey;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container button {
+    background: white;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: darkseagreen;
+    color: white;
+    box-shadow: 1px 1px 1px black;
+    margin-top: 20px;
+
+}
+
+.container {
+    background: darkorange;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+}
+
+.container span {
+    font-size: 70px;
+    color: darkslategrey;
+    display: inline-block;
+}
+
+.container p {
+    color: darkslategray;
+    font-size: 28px;
+    display: inline-block;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
