@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pass the Message Project</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <div class="container" >
+        <h4>A Message to pass.</h4>
+        <form id="form"> 
+            <label for="input">Enter Your Message: <br></label>
+            <input type="text" id="input" onfocus="this.value=''"><br>
+            <button>Submit Query</button>
+        </form>
+
+        <div class="message">
+            <h4>Last Message Delivered </h4>
+            <span id="msg"> MESSAGE </span>
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
