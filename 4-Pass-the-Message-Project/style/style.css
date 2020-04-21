@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: white;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+form button {
+    margin: 20px;
+    background-color: dodgerblue;
+    color: white;
+    padding: 9px;
+    border: dodgerblue;
+    border-radius: 7px;
+    font-size: 18px;
+}
+
+.message {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.message span {
+    margin: 21px;
+    color: dodgerblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
