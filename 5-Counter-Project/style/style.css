@@ -1,0 +1,38 @@
+body {
+    background: skyblue;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main {
+    width: 30%;
+    height: 40vh;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+span {
+    display: block;
+    text-align: center;
+    margin: 37px;
+}
+
+.num {
+    font-size: 70px;
+}
+
+button {
+    margin: 20px;
+    background: blue;
+    color: white;
+    border: 1px solid blue;
+    padding: 9px;
+    border-radius: 8px;
+}
